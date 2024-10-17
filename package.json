@@ -1,5 +1,5 @@
 {
-  "name": "prettier-plugin-sql",
+  "name": "prettier-plugin-sql-custom",
   "version": "1.0.0",
   "type": "module",
   "main": "index.cjs",
