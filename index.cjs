@@ -1,4 +1,6 @@
-import SqlPlugin from "prettier-plugin-sql";
+// import SqlPlugin from "prettier-plugin-sql";
+
+const SqlPlugin = require("prettier-plugin-sql");
 
 const SQLCFormat = {
   ...SqlPlugin,
@@ -12,4 +14,4 @@ const SQLCFormat = {
   },
 };
 
-export default SQLCFormat;
+module.exports = SQLCFormat;

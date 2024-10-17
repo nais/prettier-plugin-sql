@@ -2,7 +2,12 @@
   "name": "prettier-plugin-sql",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "index.cjs",
+  "module": "./index.js",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
